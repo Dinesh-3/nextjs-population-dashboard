@@ -1,5 +1,9 @@
 import Header from "./Header"
 import ScrollTopComponent from "./ScrollTop"
+
+/*
+* App Layout Component
+*/
 const Layout = (props) => (
   <div>
     <Header/>

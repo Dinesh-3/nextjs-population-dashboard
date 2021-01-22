@@ -1,5 +1,7 @@
 import Link from 'next/link';
-
+/*
+* App Header
+*/
 const Header = ()=> (
     <div>
         <h1> World Population Dashboard </h1>

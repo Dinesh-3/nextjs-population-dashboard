@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Layout from \"../components/Layout\";\nimport DensityComponent from \"../components/Density\";\n\nconst Density = () => /*#__PURE__*/_jsx(Layout, {\n  children: /*#__PURE__*/_jsx(DensityComponent, {})\n});\n\nexport default Density;","map":null,"metadata":{},"sourceType":"module"}

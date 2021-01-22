@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Layout from \"../components/Layout\";\nimport LandAreaComponent from \"../components/LandArea\";\n\nconst LandArea = () => /*#__PURE__*/_jsx(Layout, {\n  children: /*#__PURE__*/_jsx(LandAreaComponent, {})\n});\n\nexport default LandArea;","map":null,"metadata":{},"sourceType":"module"}

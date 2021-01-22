@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from \"react\";\n/* \n* Page Not Found 404\n*/\n\nclass NotFoundComponent extends React.Component {\n  render() {\n    return /*#__PURE__*/_jsx(\"h1\", {\n      children: \"Page Not Found\"\n    });\n  }\n\n}\n\nexport default NotFoundComponent;","map":null,"metadata":{},"sourceType":"module"}
