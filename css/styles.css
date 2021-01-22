@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+a {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+li :hover {
+    border-bottom: 3px solid black;
+}
 body {
     margin: 10px;
     text-align: center;
