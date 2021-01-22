@@ -11,13 +11,19 @@ li :hover {
     border-bottom: 3px solid black;
 }
 body {
-    margin: 10px;
+    margin: 0px 10px;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 ul {
+    width: 500px;
     display: flex;
-    justify-content: center;
+    background-color: #e200cf;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px;
 }
 
 li {
@@ -26,17 +32,16 @@ li {
 }
 
 a {
+    color: #ffffff;
     text-decoration: none;
 }
 
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
-}
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .App-intro {
@@ -70,7 +75,7 @@ canvas {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color:#e200cf;
     text-align: center;
     cursor: pointer;
     display: flex;
@@ -96,6 +101,13 @@ canvas {
     user-select: none;
 }
 
+.header h1 {
+    align-self: stretch;
+    margin: 0px;
+    padding: 10px 0px;
+    background-color: #221f3b;
+    color: #ffffff;
+}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
