@@ -2,7 +2,7 @@ import axios from 'axios';
 import {chartModel} from "../services/chartModel"
 import { cloneDeep } from "lodash"
 
-const URL = "https://data-server-api-v2.herokuapp.com/data"
+const URL = "https://data-api-v2.herokuapp.com/data"
 
 // Fetch Data from NodeJS API
 const fetchData = async () => {
